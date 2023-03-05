@@ -70,6 +70,8 @@
 --wraparguments preserve
 --wrapcollections before-first
 --wrapconditions preserve
+--wrapeffects preserve
+--wrapenumcases always
 --wrapparameters default
 --wrapreturntype preserve
 --wrapternary default
@@ -77,4 +79,4 @@
 --xcodeindentation disabled
 --yodaswap always
 --disable typeSugar
---enable blankLineAfterImports,docComments,isEmpty,preferDouble,wrapEnumCases
+--enable blankLineAfterImports,docComments,isEmpty,wrapEnumCases
