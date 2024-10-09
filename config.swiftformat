@@ -1,15 +1,23 @@
 --acronyms ID,URL,UUID
 --allman false
+--anonymousforeach ignore
 --assetliterals visual-width
+--asynccapturing 
 --beforemarks 
 --binarygrouping none
+--callsiteparen default
 --categorymark "MARK: %c"
 --classthreshold 0
 --closingparen balanced
 --closurevoid remove
 --commas always
+--complexattrs preserve
+--computedvarattrs preserve
+--condassignment after-property
 --conflictmarkers reject
+--dateformat system
 --decimalgrouping 3,6
+--doccomments preserve
 --elseposition same-line
 --emptybraces no-space
 --enumnamespaces always
@@ -33,6 +41,7 @@
 --indent 4
 --indentcase false
 --indentstrings false
+--initcodernil false
 --lifecycle 
 --lineaftermarks true
 --linebreaks lf
@@ -42,10 +51,14 @@
 --maxwidth none
 --modifierorder 
 --nevertrailing 
+--nilinit remove
+--noncomplexattrs 
 --nospaceoperators ...,..<
 --nowrapoperators 
 --octalgrouping none
+--onelineforeach ignore
 --operatorfunc spaced
+--organizationmode visibility
 --organizetypes actor,class,enum,struct
 --patternlet hoist
 --ranges spaced
@@ -55,17 +68,20 @@
 --semicolons never
 --shortoptionals always
 --smarttabs enabled
---someAny true
+--someany true
+--storedvarattrs preserve
 --stripunusedargs always
 --structthreshold 0
---swiftversion 5.7
+--swiftversion 6.0
 --tabwidth unspecified
+--throwcapturing 
+--timezone system
 --trailingclosures 
 --trimwhitespace always
 --typeattributes preserve
 --typeblanklines remove
+--typedelimiter space-after
 --typemark "MARK: - %t"
---varattributes preserve
 --voidtype void
 --wraparguments preserve
 --wrapcollections before-first
@@ -78,5 +94,5 @@
 --wraptypealiases preserve
 --xcodeindentation disabled
 --yodaswap always
---disable typeSugar
---enable blankLineAfterImports,docComments,isEmpty,wrapEnumCases
+--disable andOperator,preferForLoop,redundantRawValues,typeSugar,unusedArguments
+--enable isEmpty,wrapEnumCases
